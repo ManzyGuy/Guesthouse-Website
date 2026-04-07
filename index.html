@@ -3,41 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rehoboth 49 Guesthouse | The Modern Homestead</title>
-    <meta name="description" content="Rehoboth 49 Guesthouse - A modern homestead retreat offering 3 beautiful bedrooms, luxury amenities, and a peaceful stay in the countryside.">
-    <!-- Google Fonts -->
+    <title>Rehoboth 49 Guesthouse | A Quiet, Private Stay in Lilongwe</title>
+    <meta name="description" content="Rehoboth 49 Guesthouse - A quiet, modern homestead offering 3 lovely bedrooms, luxury amenities, and a peaceful stay in Lilongwe.">
+    <!-- Font Preconnections -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Image Preloads -->
+    <link rel="preload" as="image" href="assets/hero-lodge.webp">
     <!-- Local Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Persistent Booking Bar -->
-    <div class="booking-bar">
-        <div class="booking-bar-content">
-            <div class="booking-bar-info">
-                <span class="booking-label">STAY FROM</span>
-                <span class="booking-price">MWK 140,000 / night</span>
-            </div>
-            <button class="btn-primary" aria-label="Book your stay">Reserve Now</button>
-        </div>
-    </div>
-
     <!-- Hero Section -->
-    <header class="hero">
+    <header class="hero fade-in">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="headline-lg">Rehoboth<br>Guesthouse.</h1>
-            <p class="body-lg subtitle">The Modern Homestead.</p>
+            <h1 class="headline-lg">Rehoboth 49 Guesthouse.</h1>
+            <p class="body-lg subtitle">A Quiet, Private Stay in Lilongwe.</p>
+            <p class="body-md highlight-tags">• Free Wi-Fi &nbsp;• Secure Parking &nbsp;• Close to Airport</p>
+            
+            <div class="hero-ctas">
+                <a href="https://wa.me/265885303716?text=Hello%20I%20would%20like%20to%20check%20availability%20at%20Rehoboth%2049%20Guesthouse" class="btn-primary cta-btn" target="_blank" rel="noopener noreferrer">Book via WhatsApp</a>
+                <a href="mailto:rehoboth49guesthouse@gmail.com?subject=Booking Inquiry" class="btn-secondary cta-secondary">Check Availability</a>
+            </div>
         </div>
     </header>
 
     <main class="page-container">
         
         <!-- Experience / About Section -->
-        <section class="section-asymmetric">
+        <section class="section-asymmetric fade-in">
             <div class="text-block">
                 <span class="label-md editorial-label">THE EXPERIENCE</span>
                 <h2 class="headline-md">A grounding retreat in a fully furnished sanctuary.</h2>
@@ -48,29 +45,17 @@
                 <div class="amenities-list">
                     <div class="amenity-item">
                         <h3 class="title-sm">3 Bedrooms</h3>
-                        <p class="body-sm">Including one master suite for premium comfort.</p>
-                    </div>
-                    <div class="amenity-item">
-                        <h3 class="title-sm">General Setup</h3>
-                        <p class="body-sm">One general bathroom and toilet, fully furnished house with living space.</p>
-                    </div>
-                    <div class="amenity-item">
-                        <h3 class="title-sm">Connectivity & Media</h3>
-                        <p class="body-sm">WiFi and Channels available (paid by guest).</p>
-                    </div>
-                    <div class="amenity-item">
-                        <h3 class="title-sm">Security</h3>
-                        <p class="body-sm">Safe neighbourhood. Bespoke security arrangements can be made upon request.</p>
+                        <p class="body-sm">Including one master suite for premium comfort at MWK 140,000 / night.</p>
                     </div>
                 </div>
             </div>
             
             <div class="carousel-block">
                 <div class="carousel-container" id="roomCarousel">
-                    <img src="assets/room_interior.png" alt="Master Bedroom Suite" class="carousel-image active">
+                    <img src="assets/room-interior-1.webp" alt="Master Bedroom Suite" class="carousel-image active" loading="lazy">
                     <!-- Replace these src attributes with real room pictures when ready -->
-                    <img src="assets/room_interior.png" alt="Bedroom Two" class="carousel-image">
-                    <img src="assets/room_interior.png" alt="Bedroom Three" class="carousel-image">
+                    <img src="assets/room-interior-2.webp" alt="Bedroom Two" class="carousel-image" loading="lazy">
+                    <img src="assets/exterior-night.webp" alt="Guesthouse Exterior" class="carousel-image" loading="lazy">
                 </div>
                 
                 <div class="carousel-controls">
@@ -89,8 +74,36 @@
             </div>
         </section>
 
+        <!-- Amenities Section -->
+        <section class="section-amenities fade-in">
+            <span class="label-md editorial-label">WHAT WE OFFER</span>
+            <h2 class="headline-md">Designed for total comfort.</h2>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <span class="amenity-icon">📶</span>
+                    <span class="title-sm">Free Wi-Fi</span>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">❄️</span>
+                    <span class="title-sm">Air Conditioning</span>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">🚗</span>
+                    <span class="title-sm">Secure Parking</span>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">🛡️</span>
+                    <span class="title-sm">24/7 Security</span>
+                </div>
+                <div class="amenity-card">
+                    <span class="amenity-icon">🍳</span>
+                    <span class="title-sm">Breakfast Available</span>
+                </div>
+            </div>
+        </section>
+
         <!-- Location Section -->
-        <section class="section-location background-shift">
+        <section class="section-location background-shift fade-in">
             <div class="location-header">
                 <span class="label-md editorial-label">WHERE TO FIND US</span>
                 <h2 class="headline-md">Perfectly placed for connection and calm.</h2>
@@ -125,54 +138,21 @@
             </div>
         </section>
 
-        <!-- Reviews Section -->
-        <section class="section-reviews">
+        <!-- Social Proof Section -->
+        <section class="section-reviews fade-in">
             <span class="label-md editorial-label">GUEST JOURNAL</span>
             <h2 class="headline-md">Reflections from past stays.</h2>
             
-            <div class="reviews-grid">
-                <!-- Submit a Review Form -->
-                <div class="review-form-container">
-                    <form id="reviewForm" class="review-form">
-                        <h3 class="title-md">Share Your Experience</h3>
-                        
-                        <div class="input-group">
-                            <label for="guestName" class="label-md">Your Name</label>
-                            <input type="text" id="guestName" name="guestName" required placeholder="Jane Doe">
-                        </div>
-                        
-                        <div class="input-group">
-                            <label for="stayDuration" class="label-md">How long did you stay?</label>
-                            <input type="text" id="stayDuration" name="stayDuration" required placeholder="e.g., 3 Nights">
-                        </div>
-                        
-                        <div class="input-group">
-                            <label for="comfortLevel" class="label-md">Comfort Level (1-5)</label>
-                            <input type="number" id="comfortLevel" name="comfortLevel" min="1" max="5" required placeholder="5">
-                        </div>
-                        
-                        <div class="input-group">
-                            <label for="stayDescription" class="label-md">Stay Description</label>
-                            <textarea id="stayDescription" name="stayDescription" rows="4" required placeholder="How was the homestead?"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-primary">Submit Reflection</button>
-                    </form>
+            <div class="testimonials-grid">
+                <div class="testimonial-card surface-highest">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">"Peaceful and very clean. Loved the environment. The master suite was incredibly comfortable and the quiet neighborhood provided the perfect reset. Highly recommended."</blockquote>
+                    <div class="testimonial-author body-sm">– T. Banda, Feb 2026</div>
                 </div>
-
-                <!-- Display Reviews -->
-                <div class="reviews-list" id="reviewsContainer">
-                    <!-- Placeholder Review -->
-                    <div class="review-card surface-highest">
-                        <div class="review-header">
-                            <span class="title-sm">Michael T.</span>
-                            <span class="label-md review-rating">★★★★★</span>
-                        </div>
-                        <p class="body-sm review-meta">Stayed for 4 Nights</p>
-                        <p class="body-md review-text">
-                            "A beautifully serene space that really feels exactly like a modern homestead. The master suite was incredibly comfortable and the quiet neighborhood provided the perfect reset. Highly recommended."
-                        </p>
-                    </div>
+                <div class="testimonial-card surface-highest">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">"A beautifully serene space that really feels exactly like a modern homestead. Close enough to the airport while still feeling private."</blockquote>
+                    <div class="testimonial-author body-sm">– S. Phiri, Jan 2026</div>
                 </div>
             </div>
         </section>
@@ -194,6 +174,22 @@
             </div>
         </div>
     </footer>
+
+    <!-- Sticky Mobile Bar -->
+    <div class="sticky-action-bar">
+        <a href="https://wa.me/265885303716?text=Hello%20I%20would%20like%20to%20check%20availability%20at%20Rehoboth%2049%20Guesthouse" class="action-btn" target="_blank" rel="noopener noreferrer">
+            <span class="action-icon">💬</span>
+            <span class="action-label">WhatsApp</span>
+        </a>
+        <a href="tel:0885303716" class="action-btn">
+            <span class="action-icon">📞</span>
+            <span class="action-label">Call</span>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=-13.915866999999999,33.7509143" class="action-btn" target="_blank" rel="noopener noreferrer">
+            <span class="action-icon">📍</span>
+            <span class="action-label">Map</span>
+        </a>
+    </div>
 
     <!-- Local Script -->
     <script src="script.js"></script>
